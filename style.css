@@ -1,0 +1,1890 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    outline: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+ol,
+ul {
+    list-style: none;
+}
+input,
+select,
+textarea {
+    font-family: "Gordita_Gegular";
+}
+a {
+    color: rgb(84, 84, 84);
+    text-decoration: none;
+}
+a,
+h1,
+h2,
+input {
+    font-family: "Gordita_Regular";
+    color: rgb(0, 0, 0);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+    color: rgb(117, 116, 116);
+    font-family: "Gordita_Regular";
+}
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1325px;
+}
+@font-face {
+    font-display: auto;
+    font-family: "Gordita_Bold";
+    src: url("./fonts/GorditaBold.162fc0c8.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-display: auto;
+    font-family: "Gordita_Medium";
+    src: url("./fonts/GorditaMedium.8667baff.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-display: auto;
+    font-family: "Gordita_Regular";
+    src: url("./fonts//GorditaRegular.74727069.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+#home {
+    background: url("images/spotlight-bg.png") right 50% bottom / cover no-repeat;
+    padding: 0 0 14%;
+}
+#home section.menu {
+}
+#home section.menu section.wrapper {
+}
+#home section.menu {
+    background: url("images/spotlight.png") right top / 50% no-repeat;
+    z-index: 1;
+}
+#home section.menu header {
+    margin-bottom: 15%;
+}
+#home section.menu header h1 {
+    width: 83px;
+    padding-top: 40px;
+}
+#home section.menu header h1 a {
+    display: block;
+}
+#home section.menu header h1 a img {
+    width: 100%;
+    display: block;
+}
+#home section.menu div.bottom {
+}
+#home section.menu div.bottom h3 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    width: 486px;
+    font-family: "Gordita_Medium";
+}
+#home section.menu div.bottom h3 span {
+    color: rgb(11, 190, 97);
+    display: block;
+    font-family: "Gordita_Bold";
+}
+#home section.menu div.bottom p {
+    max-width: 521px;
+    color: rgb(117, 116, 116);
+    font-size: 18px;
+}
+#spotlight {
+    padding-top: 35px;
+}
+#spotlight section.wrapper {
+}
+#spotlight div.content {
+    position: relative;
+}
+#spotlight div.content h2 {
+    font-size: 34px;
+    font-family: "Gordita_Medium";
+    text-align: center;
+}
+#spotlight div.content h2 span {
+    color: rgb(11, 190, 97);
+    font-family: "Gordita_Medium";
+}
+#spotlight div.content div.line {
+    position: absolute;
+    left: 31%;
+    top: 29%;
+    width: 20%;
+}
+#spotlight div.content img {
+    display: block;
+    width: 100%;
+}
+#spotlight div.content p {
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto 0px;
+    font-size: 16px;
+}
+#spotlight div.bottom {
+}
+#spotlight div.bottom ul {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto -30px;
+    flex-wrap: wrap;
+    width: 60%;
+}
+#spotlight div.bottom ul li {
+    margin-bottom: 30px;
+    padding: 0px 15px;
+}
+#spotlight div.bottom ul li img {
+    display: block;
+    height: 43px;
+}
+#startup {
+}
+#startup section.wrapper {
+}
+#startup section.middle {
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    align-items: center;
+    padding-top: 120px;
+    margin: 0px auto;
+}
+#startup section.middle div.left {
+    width: 35%;
+    margin-right: 7%;
+}
+#startup section.middle div.left img {
+    display: block;
+    width: 91%;
+}
+#startup section.middle div.right {
+    width: 64%;
+    position: relative;
+}
+#startup section.middle div.right h3 {
+    font-size: 34px;
+    font-family: "Gordita_Medium";
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+}
+#startup section.middle div.right h3::before {
+    content: "";
+    background: url("images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    bottom: 220px;
+}
+#startup section.middle div.right p {
+    margin-top: 30px;
+}
+#startup section.middle div.right p br {
+}
+#project {
+    padding: 8% 0px;
+}
+#project section.wrapper {
+}
+#project section.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#project section.container div.left {
+    width: 40%;
+}
+#project section.container div.left h3 {
+    font-size: 34px;
+    font-family: "Gordita_Medium";
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+#project section.container div.left h3::before {
+    content: "";
+    background: url("images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+}
+#project section.container div.left p {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 32px;
+}
+#project section.container div.right {
+    width: 53%;
+}
+#project section.container div.right ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#project section.container div.right ul li {
+    margin-bottom: 3%;
+    padding: 20px 20px 30px;
+    border: 1px solid rgba(150, 202, 76, 0.353);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out 0s;
+    width: 46%;
+}
+#project section.container div.right ul li:hover {
+    border: 1px solid rgb(11, 190, 97);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+#project section.container div.right ul li:nth-child(2n + 1) {
+    transform: translateY(50px);
+}
+#project section.container div.right ul li img {
+    display: block;
+    width: 100%;
+}
+#project section.container div.right ul li h4 {
+    font-size: 18px;
+    font-family: "Gordita_Medium";
+    color: rgb(84, 84, 84);
+    margin-top: 20px;
+}
+#project section.container div.right ul li p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+#talrop {
+    padding-top: 8%;
+    background-color: rgb(249, 249, 249);
+}
+#talrop section.wrapper {
+}
+#talrop section.start {
+    justify-content: space-between;
+}
+#talrop section.start div.top {
+    position: relative;
+    z-index: 9;
+}
+#talrop section.start div.top h2 {
+    font-size: 34px;
+    font-family: "Gordita_Medium";
+    text-align: center;
+    width: 500px;
+    margin: 0px auto;
+}
+#talrop section.start div.top h2::before {
+    content: "";
+    background: url("images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 50%;
+    height: 219px;
+    position: absolute;
+    z-index: -1;
+    left: 315px;
+    top: -38px;
+    filter: blur(19px);
+}
+#talrop section.start div.top p {
+    text-align: center;
+    font-size: 16px;
+    width: 600px;
+    margin: 30px auto 0px;
+}
+#talrop section.start div.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px -10px 0px;
+}
+#talrop section.start div.bottom ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+#talrop section.start div.bottom ul li {
+    width: 24%;
+    margin-bottom: 10%;
+    padding: 50px 20px 30px;
+    border: 1px solid rgb(214, 236, 212);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out 0s;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+}
+#talrop section.start div.bottom ul li:hover {
+    border: 1px solid rgb(11, 190, 97);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+#talrop section.start div.bottom ul li:nth-child(9n) {
+    margin-left: auto;
+    margin-right: 1.3%;
+}
+#talrop section.start div.bottom ul li:nth-child(10n) {
+    margin-right: auto;
+}
+#talrop section.start div.bottom ul li div.icon {
+    width: 110px;
+    padding: 7px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgb(11, 190, 97);
+    position: absolute;
+    top: -55px;
+}
+#talrop section.start div.bottom ul li div.icon img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+#talrop section.start div.bottom ul li h4 {
+    font-size: 18px;
+    font-family: "Gordita_Medium";
+    color: rgb(84, 84, 84);
+    margin-top: 20px;
+}
+#talrop section.start div.bottom ul li p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(126, 126, 126);
+}
+#talrop section.start div.bottom ul li a.button {
+    width: calc(100% - 40px);
+    height: 50px;
+    background-color: rgb(213, 240, 230);
+    font-size: 14px;
+    font-family: "Gordita_Medium";
+    color: rgb(15, 167, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out 0s;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+#team {
+    padding: 130px 0px;
+}
+#team section.wrapper {
+}
+#team section.container {
+}
+#team section.container div.top {
+}
+#team section.container div.top h2 {
+    font-size: 34px;
+    font-family: "Gordita_Medium";
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+}
+#team section.container div.top h2::before {
+    content: "";
+    background: url("images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 50%;
+    height: 199px;
+    position: absolute;
+    z-index: -1;
+    top: -52px;
+    left: 474px;
+}
+#team section.container div.bottom {
+    width: 85%;
+    margin: 60px auto 0px;
+}
+#team section.container div.bottom ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#team section.container div.bottom ul li {
+    width: 27%;
+    margin-bottom: 20px;
+}
+#team section.container div.bottom ul li span.top {
+    width: 94%;
+    display: inline-block;
+}
+#team section.container div.bottom ul li span.top img {
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border: 1px solid rgb(217, 240, 232);
+    border-radius: 15px;
+}
+#team section.container div.bottom ul li h4 {
+    font-size: 16px;
+    font-family: "Gordita_Medium";
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(84, 84, 84);
+}
+#team section.container div.bottom ul li small {
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-family: "Gordita_Medium";
+}
+#team section.container div.bottom ul li a.button {
+    width: 60%;
+    background-color: rgb(43, 126, 188);
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto 0px;
+    display: flex;
+    padding: 11px;
+}
+#team section.container div.bottom ul li a.button span.icon {
+    width: 22px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+#team section.container div.bottom ul li a.button span.icon img {
+    width: 14px;
+    display: block;
+}
+#team section.container div.bottom ul li a.button span.label {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 7px;
+    font-family: "Gordita_Medium";
+    font-size: 13px;
+}
+#mammootty {
+}
+#mammootty section.wrapper {
+}
+#mammootty div.img-container {
+    width: 70%;
+    margin: 0px auto;
+}
+#mammootty div.img-container img {
+    display: block;
+    width: 100%;
+}
+#mammootty div.ambassador {
+    display: none;
+}
+#mammootty div.ambassador img {
+    display: none;
+}
+#intrest {
+    background: rgb(249, 249, 249);
+    padding: 130px 0px;
+}
+#intrest section.wrapper {
+}
+#intrest section.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#intrest section.container div.left {
+    width: 36%;
+}
+#intrest section.container div.left h2 {
+    font-size: 33px;
+    font-family: "Gordita_Medium";
+}
+#intrest section.container div.right {
+    width: 77%;
+}
+#intrest section.container div.right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#intrest section.container div.right ul li {
+    display: flex;
+    justify-content: center;
+    width: 47%;
+    margin-right: 20px;
+    margin-bottom: 45px;
+}
+#intrest section.container div.right ul li:nth-child(3) {
+    margin-bottom: 0px;
+}
+#intrest section.container div.right ul li:last-child {
+    margin-bottom: 0px;
+}
+#intrest section.container div.right ul li span {
+    display: inline-block;
+    margin-right: 20px;
+}
+#intrest section.container div.right ul li span img {
+}
+#intrest section.container div.right ul li div.item {
+}
+#intrest section.container div.right ul li div.item h4 {
+    font-size: 20px;
+    color: rgb(84, 84, 84);
+    font-family: "Gordita_Medium";
+    margin-bottom: 10px;
+}
+#intrest section.container div.right ul li div.item p {
+    font-size: 16px;
+    width: 100%;
+}
+#revolution {
+    padding-top: 30px;
+}
+#revolution h2.responsive {
+    display: none;
+    font-family: "Gordita_Medium";
+    font-size: 27px;
+    color: rgb(33, 33, 33);
+    margin-bottom: 54px;
+}
+#revolution section.wrapper {
+}
+#revolution section.container {
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#revolution section.container div.left {
+    width: 50%;
+    position: relative;
+}
+#revolution section.container div.left h2 {
+    font-family: "Gordita_Medium";
+    font-size: 34px;
+    color: rgb(33, 33, 33);
+    margin-bottom: 54px;
+    position: relative;
+}
+#revolution section.container div.left h2::before {
+    content: "";
+    background: url("images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 100%;
+    height: 253px;
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+    left: -70px;
+}
+#revolution section.container div.left ul {
+}
+#revolution section.container div.left ul li {
+}
+#revolution section.container div.left ul li h4 {
+    font-family: "gordita_medium";
+    margin-bottom: 10px;
+    color: rgb(84, 84, 84);
+    font-size: 20px;
+}
+#revolution section.container div.left ul li p {
+    line-height: 1.8em;
+    font-size: 16px;
+    color: rgb(117, 116, 116);
+    font-family: "Gordita_Regular";
+}
+#revolution section.container div.right {
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 15px;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 35px;
+    width: 40%;
+    height: 777px;
+    position: sticky;
+    top: 120px;
+}
+#revolution section.container div.right h1 {
+    margin: 0px auto;
+    width: 80px;
+}
+#revolution section.container div.right h1 a {
+    display: block;
+}
+#revolution section.container div.right h1 a img {
+    width: 100%;
+    display: block;
+}
+#revolution section.container div.right h4 {
+    font-size: 16px;
+    font-family: "Gordita_Medium";
+    margin-top: 20px;
+    color: rgb(84, 84, 84);
+    position: relative;
+    margin-left: 10px;
+}
+#revolution section.container div.right h4::before {
+    content: "";
+    width: 4px;
+    height: 20px;
+    background: rgb(27, 202, 27);
+    position: absolute;
+    left: -8px;
+}
+#revolution section.container div.right p {
+    margin-top: 12px;
+    font-size: 15px;
+    font-family: "Gordita_Regular";
+    line-height: 1.8em;
+}
+#revolution section.container div.right p br {
+}
+#programs {
+    background: rgb(249, 249, 249);
+    padding: 114px 0px 45px;
+}
+#programs section.wrapper {
+}
+#programs section.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#programs section.container h2 {
+    font-size: 34px;
+    font-family: "Gordita_Medium";
+    color: rgb(33, 33, 33);
+    text-align: center;
+    margin: 0px auto 70px;
+}
+#programs section.container div.bottom {
+}
+#programs section.container div.bottom ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#programs section.container div.bottom ul li {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 236, 212);
+    border-radius: 20px;
+    padding: 82px 30px 30px;
+    width: 30%;
+    margin-bottom: 60px;
+    margin-right: 30px;
+    transition: all 0.3s ease-in-out 0s;
+    position: relative;
+    height: 360px;
+}
+#programs section.container div.bottom ul li:hover {
+    transform: translateY(3px);
+    box-shadow: rgba(0, 0, 0, 0.09) 20px 23px 25px;
+}
+#programs section.container div.bottom ul li div.icon {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    top: -32px;
+    left: 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 8px 14px 16px;
+    background-color: rgb(219, 239, 255);
+}
+#programs section.container div.bottom ul li div.icon img {
+    width: 100%;
+    display: block;
+}
+#programs section.container div.bottom ul li h4 {
+    font-family: "Gordita_Medium";
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(84, 84, 84);
+}
+#programs section.container div.bottom ul li p {
+    color: rgb(142, 140, 140);
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Gordita_Regular";
+}
+#programs section.container div.bottom ul li div.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+    width: 85%;
+    bottom: 20px;
+}
+#programs section.container div.bottom ul li div.items span {
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+    font-family: "Gordita_Regular";
+    font-weight: 600;
+}
+#programs section.container div.bottom ul li div.items div.image {
+}
+#programs section.container div.bottom ul li div.items div.image a {
+}
+#programs section.container div.bottom ul li div.items div.image a img {
+    margin-right: 5px;
+}
+#park {
+    padding: 120px 0px;
+}
+#park section.wrapper {
+}
+#park section.container {
+}
+#park section.container div.top {
+}
+#park section.container div.top h2 {
+    font-size: 34px;
+    font-family: "Gordita_Medium";
+    color: rgb(33, 33, 33);
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+}
+#park section.container div.top h2::before {
+    content: "";
+    background: url("images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    height: 205px;
+    width: 60%;
+    position: absolute;
+    z-index: -1;
+    top: -84px;
+    right: 30px;
+}
+#park section.container div.top p {
+    color: rgb(142, 140, 140);
+    font-size: 16px;
+    width: 61%;
+    text-align: center;
+    margin: 10px auto 54px;
+}
+#park section.container div.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#park section.container div.bottom ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#park section.container div.bottom ul li {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 24px 20px;
+    height: 380px;
+    width: 33%;
+    transition: all 0.4s ease-in-out 0s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+#park section.container div.bottom ul li:hover {
+    background: rgb(249, 249, 249);
+    border-radius: 10px;
+    transform: translateY(-10px);
+    transition: all 0.4s ease-in-out 0s;
+}
+#park section.container div.bottom ul li div.item {
+    min-width: 20px;
+    margin-right: 7px;
+}
+#park section.container div.bottom ul li div.item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+#park section.container div.bottom ul li div.item h3 {
+    font-family: "Gordita_Medium";
+    font-size: 16px;
+    margin-top: 18px;
+    color: rgb(84, 84, 84);
+}
+#park section.container div.bottom ul li a.button {
+    cursor: pointer;
+    width: 51%;
+    padding: 7px 14px;
+    background: rgb(229, 245, 239);
+    border: 1px solid rgb(26, 218, 147);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#park section.container div.bottom ul li a.button div.icon {
+    display: flex;
+}
+#park section.container div.bottom ul li a.button div.icon img {
+    width: 18px;
+    display: block;
+}
+#park section.container div.bottom ul li a.button div.icon p {
+    color: rgb(15, 167, 111);
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 7px;
+}
+#village {
+}
+#village section.wrapper {
+}
+#village section.container {
+    padding: 97px 55px 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(249, 249, 249);
+    margin-bottom: 50px;
+    border-radius: 7px;
+}
+#village section.container div.left {
+    width: 38%;
+}
+#village section.container div.left h2 {
+    font-size: 32px;
+    font-family: "Gordita_Medium";
+    color: rgb(33, 33, 33);
+    margin: 0px auto 54px;
+    position: relative;
+}
+#village section.container div.left h2::before {
+    content: "";
+    background: url(images/line.svg) 0% 0% / contain no-repeat;
+    position: absolute;
+    width: 212px;
+    height: 7px;
+    top: 86px;
+    right: 183px;
+}
+#village section.container div.left ul {
+}
+#village section.container div.left ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+#village section.container div.left ul li span.img_container {
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+}
+#village section.container div.left ul li span.img_container img {
+    width: 100%;
+    display: block;
+}
+#village section.container div.left ul li p {
+    letter-spacing: 0px;
+    color: rgb(126, 126, 126);
+    font-size: 14px;
+    width: 90%;
+}
+#village section.container div.right {
+    width: 55%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#village section.container div.right div.img_container {
+}
+#village section.container div.right div.img_container img {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+#village section.container div.right a.image {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+}
+#village section.container div.right a.image img {
+    width: 100%;
+    display: block;
+}
+#upcoming {
+    padding: 48px 0px 45px;
+}
+#upcoming section.wrapper {
+}
+#upcoming section.container {
+}
+#upcoming section.container div.top {
+    position: relative;
+}
+#upcoming section.container div.top h2 {
+    font-size: 32px;
+    font-family: "Gordita_Medium";
+    color: rgb(33, 33, 33);
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+}
+#upcoming section.container div.top h2::before {
+    content: "";
+    background: url("images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    position: absolute;
+    width: 213px;
+    height: 228px;
+    top: -46px;
+    right: 379px;
+    z-index: -1;
+}
+#upcoming section.container div.top h2 br {
+}
+#upcoming section.container div.top span {
+    position: absolute;
+    display: inline-block;
+    height: 203px;
+    right: 348px;
+    width: 156px;
+    top: 87px;
+}
+#upcoming section.container div.top span img {
+    width: 100%;
+    display: block;
+}
+#upcoming section.container div.top p {
+    color: rgb(142, 140, 140);
+    margin: 20px auto 40px;
+    font-size: 16px;
+    width: 70%;
+    text-align: center;
+}
+#upcoming section.container div.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px 0px;
+    flex-wrap: wrap;
+}
+#upcoming section.container div.bottom ul {
+    display: flex;
+    justify-content: space-between;
+}
+#upcoming section.container div.bottom ul li {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 236, 212);
+    border-radius: 14px;
+    padding: 26px 20px;
+    width: 32%;
+    margin-bottom: 40px;
+    transition: all 0.3s ease-in-out 0s;
+}
+#upcoming section.container div.bottom ul li:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 20px 23px 46px;
+    transition: all 0.3s ease-in-out 0s;
+}
+#upcoming section.container div.bottom ul li div.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 53px;
+    margin-right: 10px;
+}
+#upcoming section.container div.bottom ul li div.logo img {
+    width: 100%;
+    display: block;
+}
+#upcoming section.container div.bottom ul li div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#upcoming section.container div.bottom ul li div.content div.item {
+}
+#upcoming section.container div.bottom ul li div.content div.item h3 {
+    font-family: "Gordita_Medium";
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(84, 84, 84);
+}
+#upcoming section.container div.bottom ul li div.content div.item h2 {
+    color: rgb(15, 167, 111);
+    font-family: "Gordita_Medium";
+}
+#upcoming section.container div.bottom ul li div.content div.item p {
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+}
+#upcoming section.container div.bottom ul li div.content div.icon_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+#upcoming section.container div.bottom ul li div.content div.icon_text p {
+    color: rgb(15, 167, 111);
+    font-family: "Gordita_Medium";
+    font-size: 16px;
+    transform: translateY(3px);
+}
+#upcoming section.container div.bottom ul li div.content div.icon_text div.image {
+}
+#upcoming section.container div.bottom ul li div.content div.icon_text div.image a {
+    display: inline-block;
+    margin-right: 5px;
+}
+#upcoming section.container div.bottom ul li div.content div.icon_text div.image a img {
+}
+#footer {
+    background-color: rgb(30, 30, 30);
+    padding: 100px 0px 50px;
+}
+#footer section.wrapper {
+}
+#footer section.container {
+    display: flex;
+}
+#footer section.container div.left {
+    width: 30%;
+}
+#footer section.container div.left h1 {
+}
+#footer section.container div.left h1 a {
+}
+#footer section.container div.left h1 a img {
+}
+#footer section.container div.left p {
+    color: rgb(170, 170, 170);
+    margin-top: 30px;
+}
+#footer section.container div.right {
+    width: 65%;
+}
+#footer section.container div.right ul {
+    display: flex;
+    justify-content: space-between;
+}
+#footer section.container div.right ul li {
+}
+#footer section.container div.right ul li h4 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Gordita_Medium";
+    margin-bottom: 20px;
+}
+#footer section.container div.right ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(170, 170, 170);
+}
+#footer section.container div.right ul li div.icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#footer section.container div.right ul li div.icon a:hover img {
+    filter: grayscale(0);
+}
+#footer section.container div.right ul li div.icon a img {
+    display: block;
+    margin-right: 15px;
+    height: 20px;
+    filter: grayscale(1);
+}
+#footer div.bottom {
+    margin-top: 50px;
+}
+#footer div.bottom p {
+    text-align: center;
+    color: rgb(170, 170, 170);
+    margin: 0px auto;
+}
+
+@media all and (max-width: 1280px){
+    #spotlight div.bottom ul {
+        width: 73%;
+    }    
+    #talrop section.start div.bottom ul li {
+        width: 31%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    #team section.container div.bottom ul li a.button {
+        width: 76%;
+    }  
+    #mammootty {
+        padding-bottom: 110px;
+    }  
+    #intrest section.container div.left h2 {
+        text-align: center;
+    }
+    #intrest section.container {
+        flex-wrap: wrap;
+    }
+    #intrest section.container div.left {
+        width: 100%;
+        margin: 0px auto 70px;
+    }
+    #intrest section.container div.right {
+        width: 100%;
+    }
+    #intrest section.container div.right ul li {
+        margin-right: 21px;
+    }
+    #revolution section.container div.right {
+        width: 37%;
+        height: 954px;
+    }
+    #revolution section.container div.left {
+        width: 50%;
+        position: relative;
+    }
+    #revolution section.container div.left h2 {
+        font-size: 30px;
+    }    
+    #programs section.container div.bottom ul li {
+        width: 46%;
+    }
+    #park section.container div.top p {
+        width: 70%;
+    }
+    #village section.container {
+        padding: 65px 38px 35px;
+        justify-content: space-between;
+    }  
+    #village section.container div.left {
+        width: 45%;
+    }  
+    #village section.container div.right {
+        width: 50%;
+    }
+    #village section.container div.left h2::before {
+        right: 237px;
+    }
+    #upcoming {
+        padding: 48px 0 0;
+    }
+    #upcoming section.container div.top span {
+        height: 81px;
+        right: 351px;
+        width: 127px;
+        top: 70px;
+    }
+    #upcoming section.container div.top h2 {
+        font-size: 27px;
+    }
+    #upcoming section.container div.bottom ul {
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #upcoming section.container div.bottom ul li {
+        width: 46%;
+    }
+    #footer section.container div.left p br {
+        display: none;
+    }   
+    #footer section.container div.left h1 {
+        align-items: center;
+    } 
+    #footer section.container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #footer section.container div.left {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    #footer section.container div.right {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    #home section.menu {
+        background: url(images/spotlight.png) right top / 45% no-repeat;  
+    } 
+    #home section.menu div.bottom h3 {
+        font-size: 46px;
+    }   
+    #home section.menu div.bottom p {
+        max-width: 584px;
+    } 
+    #spotlight div.bottom ul {
+        width: 66%;
+    }  
+    #spotlight div.content div.line {
+        left: 26%;
+        top: 28%;
+        width: 25%;
+    }
+    #startup section.middle {
+        width: 100%;
+        align-items: flex-start;
+    }
+    #startup section.middle div.left {
+        width: 33%;
+        margin-right: 0%;
+    }
+    #startup section.middle div.right {
+        width: 63%;
+    }
+    #project {
+        padding: 14% 0;
+    }
+    #project section.container div.left {
+        width: 100%;
+    }
+    #project section.container {
+        flex-wrap: wrap;
+    } 
+    #project section.container div.left p {
+        width: 83%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 74px;
+        margin-top: 40px;
+    }
+    #project section.container div.left h3 {
+        text-align: center;
+    }
+    #project section.container div.left {
+        width: 100%;
+    }
+    #project section.container div.right {
+        width: 100%;
+    }
+    #project section.container div.right ul {
+        width: 80%;
+        margin: 0 auto;
+    }     
+    #project section.container div.left h3::before {
+        height: 172px;
+        top: -54px;
+        right: -362px;
+        width: 50%;
+        left: 45%;
+    }
+    #project section.container div.right ul li {
+        margin-bottom: 5%;
+        width: 47%;
+    }
+    #talrop section.start div.top h2::before {
+        height: 219px;
+        left: 188px;
+    }
+    #team section.container div.top h2::before {
+        top: -52px;
+        left: 357px;
+    }
+    #team section.container div.bottom {
+        width: 79%;
+    }
+    #team section.container div.bottom ul li {
+        width: 32%;
+    }  
+    
+    #revolution section.container div.left {
+        width: 49%;
+    }
+    #revolution section.container div.right {
+        width: 41%;
+        height: 985px;
+        top: 90px;
+    }
+    #upcoming section.container div.top h2::before {
+        width: 204px;
+        top: -46px;
+        right: 287px;
+    }
+    #upcoming section.container div.top span {
+        right: 268px;
+    }
+    #upcoming section.container div.bottom ul li div.logo {
+        width: 121px;
+    }
+    #village section.container div.left h2 {
+        font-size: 28px;
+    }
+    #village section.container div.left h2::before {
+        width: 382px;
+        top: 75px;
+        right: -7px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #home section.menu div.bottom h3 {
+        font-size: 46px;
+    }
+    #spotlight div.content div.line {
+        left: 26%;
+        top: 28%;
+        width: 25%;
+    }
+    #spotlight div.bottom ul li img {
+        height: 34px;
+    }
+    #spotlight div.bottom ul {
+        width: 62%;
+    }
+    #project section.container div.left p {
+        width: 85%;
+    }
+    #project section.container div.right ul {
+        width: 100%;
+    }
+    #talrop section.start div.bottom ul li {
+        width: 44%;
+    }
+    #team section.container div.bottom ul {
+        justify-content: space-between;
+    }
+    #team section.container div.bottom ul li {
+        width: 30%;
+    }
+    #team section.container div.bottom ul li a.button {
+        width: 100%;
+    }
+    #mammootty div.img-container {
+        width: 74%;
+    }
+    #intrest section.container div.right ul li {
+        width: 46%;
+    }
+    #revolution {
+        padding-top: 81px;
+    }
+    #revolution section.container div.left h2{
+        display: none;
+    }
+    #revolution section.container div.left h2 br {
+        display: none;
+    }
+    #revolution h2.responsive{
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    #revolution h2.responsive::before {
+        content: "";
+        background: url("images/backgrounds-color.png") 0% 0% / contain no-repeat;
+        width: 100%;
+        height: 253px;
+        position: absolute;
+        z-index: -1;
+        top: -80px;
+        left: -70px;
+    }
+    #revolution section.container{
+        flex-direction: column-reverse;
+        padding-top: 0px;
+    }
+    #revolution section.container div.right{
+        position: unset;
+        height: unset;
+        width: 100%;
+    }
+    #revolution section.container div.left {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #programs section.container div.bottom ul li {
+        height: 379px;
+        width: 45%;
+    }
+    #park section.container div.top h2::before {
+        top: -84px;
+        right: 74px;
+    }
+    #park section.container div.bottom ul li {
+        height: 379px;
+        width: 50%;
+    }
+    #village section.container {
+        flex-wrap: wrap;
+    }
+    #village section.container div.left {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    #village section.container div.right {
+        width: 100%;
+    }
+    #village section.container div.left h2 {
+        text-align: center;
+    }
+    #village section.container div.left h2::before {
+        width: 211px;
+        top: 75px;
+        right: 189px;
+    }
+    #upcoming section.container div.top span {
+        right: 133px;
+    }
+    #upcoming section.container div.top h2::before {
+        right: 160px;
+    }
+    #upcoming section.container div.bottom ul li {
+        width: 100%;
+    }
+    #upcoming section.container div.bottom ul li div.logo img {
+        height: 100%;
+    }
+    #upcoming section.container div.bottom ul li div.logo {
+        width: 83px;
+        height: 53px;
+    }
+    #footer section.container div.left p {
+        font-size: 14px;
+    }
+    #footer section.container div.right ul li a {
+        font-size: 14px;
+    }
+    #footer section.container div.left {
+        width: 73%;
+    }
+    #footer section.container div.right ul li h4 {
+        font-size: 14px;
+    }
+    #footer div.bottom p {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #home {
+        padding: 0 0 17%;
+    }
+    #spotlight div.content h2 {
+        font-size: 30px;
+    }
+    #spotlight div.content div.line {
+        left: 15%;
+        top: 23%;
+        width: 35%;
+    }
+    #startup section.middle {
+        flex-direction: column;
+    }
+    #startup section.middle div.left{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    #startup section.middle div.right{
+        width: 93%;
+    }
+    #startup section.middle div.right h3 {
+        font-size: 34px;
+    }
+    #project section.container div.left p {
+        width: 88%;
+    }
+    #project section.container div.left h3 {
+        font-size: 30px;
+    }
+    #talrop section.start div.top h2 {
+        font-size: 30px;
+    }
+    #talrop {
+        padding-top: 14%;
+    }
+    #talrop section.start div.top h2::before {
+        height: 219px;
+        left: 24px;
+    }
+    #talrop section.start div.bottom ul {
+        margin-top: 9%;
+    }
+    #talrop section.start div.bottom ul li {
+        width: 47%;
+    }
+    #team section.container div.top h2 {
+        font-size: 30px;
+    }
+    #team section.container div.top h2::before {
+        top: -47px;
+        left: 161px;
+    }
+    #team section.container div.bottom {
+        width: 100%;
+    }
+    #team section.container div.bottom ul li a.button {
+        width: 93%;
+    }
+    #mammootty div.img-container {
+        width: 93%;
+    }
+    #intrest section.container div.right ul li {
+        width: 100%;
+    }
+    #intrest section.container div.right ul li:nth-child(3) {
+        margin-bottom: 45px;
+    }
+    #revolution {
+        padding-top: 109px;
+    }
+    #revolution h2.responsive::before {
+        height: 196px;
+        top: -80px;
+        left: -26px;
+    }
+    #programs section.container div.bottom ul li {
+        width: 87%;
+        height: 311px;
+    }
+    #programs section.container div.bottom ul li div.icon {
+        width: 65px;
+        height: 65px;
+    }
+    #programs section.container div.bottom ul li div.items span {
+        font-size: 14px;
+    }
+    #park {
+        padding: 95px 0px;
+    }
+    #park section.container div.top h2 {
+        font-size: 30px;
+    }
+    #park section.container div.bottom ul li a.button {
+        padding: 4px 4px;
+    }
+    #village section.container div.left h2::before {
+        width: 209px;
+        right: 132px;
+    }
+    #upcoming section.container div.top span {
+        right: 77px;
+    }
+    #upcoming section.container div.bottom {
+        padding-bottom: 85px;
+    }
+    #upcoming section.container div.bottom ul li div.content div.item h3 br {
+        display: none;
+    }
+    #upcoming section.container div.bottom ul li div.content div.icon_text p {
+        font-size: 16px;
+        transform: translateY(2px);
+    }
+    #footer section.container div.left {
+        width: 86%;
+    }
+    #footer section.container div.right ul li {
+        width: 25%;
+    }
+    #footer section.container div.right ul li div.icon {
+        margin-top: 17px;
+    }
+    #footer section.container div.right ul li div.icon a img {
+        height: 17px;
+    }
+    #footer div.bottom p {
+        font-size: 13px;
+    }  
+}
+
+@media all and (max-width: 640px) {
+    #home section.menu div.bottom h3 {
+        width: 100%;
+    }
+    #home section.menu div.bottom h3 {
+        font-size: 37px;
+    }
+    #home section.menu div.bottom h3 span {
+        font-size: 36px;
+    }
+    #home section.menu header h1 {
+        width: 70px;
+    }
+    #project section.container div.right ul li {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    #project section.container div.right ul li:nth-child(2n + 1) {
+        transform: none;
+    }
+    #spotlight div.bottom ul li img {
+        height: 27px;
+    }
+    #spotlight div.content p {
+        font-size: 15px;
+    }
+    #talrop section.start div.top p {
+        width: 100%;
+        font-size: 14px;
+    }
+    #talrop section.start div.top h2 {
+        width: 100%;
+    }
+    #talrop section.start div.bottom ul li {
+        width: 90%;
+    }
+    #startup section.middle div.left {
+        width: 75%;
+    }
+    #startup section.middle div.left img{
+        width: 100%;
+    }
+    #talrop section.start div.bottom ul li {
+        height: 300px;
+    }
+    #startup section.middle div.right h3 {
+        font-size: 26px;
+    }
+    #startup section.middle div.right h3::before {
+        bottom: 321px;
+    }
+    #startup section.middle div.right p {
+        font-size: 15px;
+    }
+    #startup section.middle div.right {
+        width: 100%;
+    }
+    #project section.container div.left p {
+        width: 96%;
+    }
+    #team section.container div.bottom ul li {
+        width: 48%;
+    }
+    #intrest section.container div.left h2 {
+        font-size: 28px;
+    }
+    #intrest section.container div.right ul li div.item p {
+        font-size: 14px;
+    }
+    #intrest section.container div.right ul li div.item h4 {
+        font-size: 17px;
+    }
+    #intrest section.container div.right ul li span {
+        margin-right: 16px;
+    }
+    #intrest section.container div.right ul li span img {
+        width: 41px;
+    }
+    #programs section.container div.bottom ul li {
+        width: 100%;
+        height: 344px;
+    }
+    #park section.container div.top p {
+        width: 100%;
+    }
+    #park section.container div.top h2::before {
+        height: 165px;
+        width: 34%;
+        top: -47px;
+        right: 274px;
+    }
+    #park section.container div.bottom ul li {
+        width: 100%;
+    }
+    #village section.container {
+        padding: 47px 27px 27px;
+    }
+    #village section.container div.left h2::before {
+        width: 212px;
+        right: 75px;
+    }
+    #upcoming section.container div.top h2::before {
+        right: 243px;
+    }
+    #upcoming section.container div.top p {
+        width: 100%;
+    }
+    #upcoming section.container div.bottom ul li div.content div.icon_text p {
+        font-size: 14px;
+    }
+    #footer section.container div.left {
+        width: 89%;
+    }
+    #footer section.container div.right ul {
+        flex-wrap: wrap;
+    }
+    #footer section.container div.right ul li {
+        width: 46%;
+        margin-bottom: 15px;
+    }
+    #footer section.container div.right ul li div.icon a img {
+        margin-right: 7px;
+    }
+    #footer section.container div.right ul li div.icon {
+        margin-top: 16px;
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #home section.menu div.bottom h3 {
+        font-size: 27px;
+    }
+    #home section.menu div.bottom h3 span {
+        font-size: 27px;
+    }
+    #home section.menu header {
+        margin-bottom: 45%;
+    }
+    #home section.menu {
+        background: url(images/spotlight.png) right top / 60% no-repeat;
+    }
+    #home section.menu header h1 {
+        width: 60px;
+    }
+    #home section.menu div.bottom p {
+        font-size: 14px;
+    }
+    #spotlight div.content h2 {
+        font-size: 24px;
+    }
+    #spotlight div.content div.line {
+        left: 1%;
+        top: 15%;
+        width: 53%;
+    }
+    #spotlight div.bottom ul {
+        width: 63%;
+    }
+    #startup section.middle div.left {
+        width: 90%;
+    }
+    #startup section.middle div.right p {
+        font-size: 14px;
+    }
+    #startup section.middle div.right h3 {
+        font-size: 23px;
+    }
+    #project section.container div.left h3 {
+        font-size: 26px;
+    }
+    #project section.container div.left p {
+        font-size: 14px;
+    }
+    #talrop section.start div.top h2 {
+        font-size: 24px;
+    }
+    #talrop section.start div.bottom ul li {
+        width: 86%;
+    }
+    #talrop section.start div.bottom ul li {
+        height: 328px;
+    }
+    #team {
+        padding: 77px 0px;
+    }
+    #team section.container div.top h2 {
+        font-size: 23px;
+    }
+    #team section.container div.bottom ul li {
+        width: 49%;
+    }
+    #team section.container div.bottom ul li h4 {
+        font-size: 15px;
+    }
+    #team section.container div.bottom ul li small {
+        font-size: 11px;
+    }
+    #team section.container div.bottom ul li a.button {
+        padding: 8px;
+        width: 100%;
+    }
+    #mammootty div.ambassador {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #mammootty div.ambassador img {
+        display: block;
+        width: 100%;
+    }
+    #mammootty div.img-container img{
+        display: none;
+    }
+    #intrest {
+        padding: 100px 0px;
+    }
+    #intrest section.container div.left h2 {
+        font-size: 24px;
+    }
+    #revolution h2.responsive {
+        font-size: 22px;
+    }
+    #revolution h2.responsive::before {
+        width: 45%;
+        height: 237px;
+        top: -32px;
+        left: -3px;
+    }
+    #park {
+        padding: 39px 0px;
+    }
+    #park section.container div.top h2 {
+        font-size: 27px;
+    }
+    #park section.container div.top h2::before {
+        height: 165px;
+        top: -47px;
+        right: 228px;
+    }
+    #park section.container div.bottom ul li {
+        height: 328px;
+        padding: 0;
+    }
+    #village section.container div.left h2 {
+        font-size: 21px;
+    }
+    #village section.container div.left h2::before {
+        width: 154px;
+        right: 49px;
+        top: 56px;
+    }
+    #village section.container div.left ul li {
+        flex-direction: column;
+        margin-bottom: 28px;
+    }
+    #village section.container div.left ul li span.img_container {
+        margin-bottom: 10px;
+    }
+    #village section.container div.right a.image {
+        width: 44px;
+    }
+    #upcoming section.container div.top h2 {
+        font-size: 20px;
+    }
+    #upcoming section.container div.bottom ul li {
+        flex-wrap: wrap;
+    }
+    #upcoming section.container div.bottom ul li div.logo {
+        width: 45px;
+        height: 53px;
+        margin-bottom: 10px;
+    }
+    #upcoming section.container div.bottom ul li div.content div.item h3 {
+        font-size: 17px;
+    }
+}
+@media all and (max-width: 360px) {
+
+}
+
